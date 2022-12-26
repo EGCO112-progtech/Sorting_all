@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "1",
-      "setup": "",
-      "run": "make test",
+      "setup": "make",
+      "run": "./test",
       "input": "",
       "output": "argc is 1",
       "comparison": "included",
@@ -12,8 +12,8 @@
     },
     {
       "name": "4",
-      "setup": "",
-      "run": "make test 10 90 30",
+      "setup": "make",
+      "run": "./test 10 90 30",
       "input": "",
       "output": "argc is 4\r\n10\r\n90\r\n30",
       "comparison": "included",
