@@ -14,9 +14,9 @@ int main(int argc, char * argv[]) {
     int i,N;
     for(i=1;i<argc;i++){
         //printf("arg %d: %s\n",i,argv[i]);
-         printf("%s\n\n",argv[i]);
+         printf("%s\n",argv[i]);
 
-      
+    
          
     }
     
