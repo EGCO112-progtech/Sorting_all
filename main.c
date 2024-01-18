@@ -2,7 +2,7 @@
 //  main.c
 //  First arg
 //
-//  Created by Mingmanas Sivaraksa on 2/1/2564 BE.
+//  Created by Mingmanas Sivaraksa on 2/1/2567 BE.
 //
 
 #include <stdio.h>
