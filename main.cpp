@@ -19,7 +19,7 @@ int main(int argc, char * argv[]) {
     
          
     }
-    sorting(a,N);
+    bubbleSort(a,N);
     delete []a;
     return 0;
 }
