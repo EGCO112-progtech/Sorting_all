@@ -1,5 +1,5 @@
 //
-//  main.c
+//  main.cpp
 //  First arg
 //
 //  Created by Mingmanas Sivaraksa on 2/1/2567 BE.
