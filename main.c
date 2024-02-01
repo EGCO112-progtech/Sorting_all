@@ -5,20 +5,21 @@
 //  Created by Mingmanas Sivaraksa on 2/1/2567 BE.
 //
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
+#include <iomanip>
+#include "sorting.h"
 
 int main(int argc, char * argv[]) {
-    
-  //  printf("I have %d arguments\n",argc);
-  printf("argc is %d\n",argc);
-    int i,N;
+    int i,N=argc-1;
+    int *a=new int[N];
     for(i=1;i<argc;i++){
-        //printf("arg %d: %s\n",i,argv[i]);
-         printf("%s\n",argv[i]);
-
+        
+        a[i-1]=atoi(argv[i]);
     
          
     }
-    
+    sorting(a,N);
+    delete []a;
     return 0;
 }
